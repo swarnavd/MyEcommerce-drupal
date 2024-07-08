@@ -1,0 +1,25 @@
+uuid: fcb0f81b-9369-4902-ba25-89339695a743
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.product
+  module:
+    - system
+  theme:
+    - bootstrap
+id: bootstrap_product
+theme: bootstrap
+region: header
+weight: -6
+provider: null
+plugin: 'system_menu_block:product'
+settings:
+  id: 'system_menu_block:product'
+  label: Product
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

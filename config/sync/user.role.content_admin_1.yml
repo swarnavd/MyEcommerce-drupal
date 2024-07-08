@@ -1,0 +1,33 @@
+uuid: b4899beb-0a44-4302-8933-1269e6c70a2a
+langcode: en
+status: true
+dependencies:
+  config:
+    - entityqueue.entity_queue.appliances
+    - entityqueue.entity_queue.electronics
+    - entityqueue.entity_queue.grocery
+    - node.type.product
+  module:
+    - admin_toolbar_search
+    - entityqueue
+    - field_ui
+    - node
+    - toolbar
+id: content_admin_1
+label: 'content admin 1'
+weight: 4
+is_admin: null
+permissions:
+  - 'access content overview'
+  - 'access toolbar'
+  - 'administer entity_subqueue display'
+  - 'administer entity_subqueue fields'
+  - 'administer entity_subqueue form display'
+  - 'administer entityqueue'
+  - 'create product content'
+  - 'delete own product content'
+  - 'edit own product content'
+  - 'update appliances entityqueue'
+  - 'update electronics entityqueue'
+  - 'update grocery entityqueue'
+  - 'use admin toolbar search'

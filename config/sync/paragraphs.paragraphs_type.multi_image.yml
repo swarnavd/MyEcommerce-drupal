@@ -1,0 +1,10 @@
+uuid: 5c362eca-ab76-4068-8504-f39390ac78b4
+langcode: en
+status: true
+dependencies: {  }
+id: multi_image
+label: 'multi image'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

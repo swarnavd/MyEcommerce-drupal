@@ -1,0 +1,24 @@
+uuid: 0f89c56d-eb0d-413c-a173-adb659f8c638
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.multi_image_banner
+    - field.field.block_content.multi_image_banner.field_multi_image_banner
+  module:
+    - entity_reference_revisions
+id: block_content.multi_image_banner.default
+targetEntityType: block_content
+bundle: multi_image_banner
+mode: default
+content:
+  field_multi_image_banner:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

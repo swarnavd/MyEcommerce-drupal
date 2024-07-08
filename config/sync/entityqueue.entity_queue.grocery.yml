@@ -1,0 +1,26 @@
+uuid: df223e3e-082d-4eae-a3f7-36515704f44f
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: grocery
+label: grocery
+handler: simple
+handler_configuration: {  }
+entity_settings:
+  target_type: node
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      product: product
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+queue_settings:
+  min_size: 0
+  max_size: 0
+  act_as_queue: false
+  reverse: false

@@ -1,0 +1,25 @@
+uuid: 25e0f4da-26ff-4f72-88af-e5d977cc97c9
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:835c76f4-d3d4-408e-b5d5-29a805ead51a'
+  module:
+    - block_content
+  theme:
+    - bootstrap
+id: bootstrap_addaseller
+theme: bootstrap
+region: navigation_collapsible
+weight: -6
+provider: null
+plugin: 'block_content:835c76f4-d3d4-408e-b5d5-29a805ead51a'
+settings:
+  id: 'block_content:835c76f4-d3d4-408e-b5d5-29a805ead51a'
+  label: 'add a seller'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
