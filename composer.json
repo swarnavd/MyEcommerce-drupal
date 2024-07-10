@@ -32,6 +32,7 @@
         "drupal/honeypot": "^2.1",
         "drupal/linkit": "^6.1",
         "drupal/maxlength": "^3.0",
+        "drupal/menu_item_role_access": "^2.1",
         "drupal/paragraphs": "^1.17",
         "drupal/pathauto": "^1.12",
         "drupal/permissions_by_term": "^3.1",

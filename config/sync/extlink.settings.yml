@@ -27,6 +27,9 @@ extlink_mailto_label: '(link sends email)'
 extlink_tel_class: tel
 extlink_tel_label: '(link is a phone number)'
 extlink_use_font_awesome: false
-extlink_font_awesome_classes: {  }
+extlink_font_awesome_classes:
+  links: 'fa fa-external-link'
+  mailto: 'fa fa-envelope-o'
+  tel: 'fa fa-phone'
 extlink_icon_placement: append
 whitelisted_domains: {  }
