@@ -1,0 +1,19 @@
+uuid: 5134c4a0-da9c-4158-900f-4b8f3e2cd640
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - paragraphs
+id: paragraph.field_url
+field_name: field_url
+entity_type: paragraph
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

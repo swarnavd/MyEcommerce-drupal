@@ -1,0 +1,33 @@
+uuid: 8d75acc8-9976-48b3-a011-2badf071959b
+langcode: en
+status: true
+dependencies:
+  config:
+    - entityqueue.entity_queue.fashions
+    - entityqueue.entity_queue.home
+    - entityqueue.entity_queue.mobile
+    - node.type.product
+  module:
+    - admin_toolbar_search
+    - entityqueue
+    - field_ui
+    - node
+    - toolbar
+id: content_admin_2
+label: 'content admin 2'
+weight: 5
+is_admin: null
+permissions:
+  - 'access content overview'
+  - 'access toolbar'
+  - 'administer entity_subqueue display'
+  - 'administer entity_subqueue fields'
+  - 'administer entity_subqueue form display'
+  - 'administer entityqueue'
+  - 'create product content'
+  - 'delete own product content'
+  - 'edit own product content'
+  - 'update fashions entityqueue'
+  - 'update home entityqueue'
+  - 'update mobile entityqueue'
+  - 'use admin toolbar search'

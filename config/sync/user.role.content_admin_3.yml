@@ -1,0 +1,29 @@
+uuid: 664c4ae7-bd6a-4244-af57-afdd97c9522e
+langcode: en
+status: true
+dependencies:
+  config:
+    - entityqueue.entity_queue.wheeler
+    - node.type.product
+  module:
+    - admin_toolbar_search
+    - entityqueue
+    - field_ui
+    - node
+    - toolbar
+id: content_admin_3
+label: 'content admin 3'
+weight: 6
+is_admin: null
+permissions:
+  - 'access content overview'
+  - 'access toolbar'
+  - 'administer entity_subqueue display'
+  - 'administer entity_subqueue fields'
+  - 'administer entity_subqueue form display'
+  - 'administer entityqueue'
+  - 'create product content'
+  - 'delete own product content'
+  - 'edit own product content'
+  - 'update wheeler entityqueue'
+  - 'use admin toolbar search'

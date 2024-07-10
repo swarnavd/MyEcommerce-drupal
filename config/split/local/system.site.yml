@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: ijfbzDTN4CbE7Sr-6ubWzy_t1vH4OtU1doNCLssVz-4
+langcode: en
+uuid: 7a67e65e-cbd7-4168-af8b-1410f6954699
+name: MyEcommerce
+mail: swarnav.das@innoraft.com
+slogan: ''
+page:
+  403: /node/1
+  404: /node/2
+  front: /node/23
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en
+mail_notification: null

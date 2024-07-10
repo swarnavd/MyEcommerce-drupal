@@ -1,0 +1,11 @@
+_core:
+  default_config_hash: sB7-4QwKGOfBozmkLn7UKvbh13RBmpGu3MEkGFJFncA
+simple_content_notifications_active: 0
+simple_content_notifications_live_domain: drupal.org
+simple_content_notifications_in_dev: true
+simple_content_notifications_logging: true
+simple_content_notifications_addresses: swarnav.das@innoraft.com
+simple_content_notifications_types:
+  product: product
+  article: 0
+  page: 0

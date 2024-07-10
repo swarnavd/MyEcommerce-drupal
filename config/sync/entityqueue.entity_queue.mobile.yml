@@ -1,0 +1,26 @@
+uuid: 97694920-2f34-450a-b4d1-183a739d970a
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: mobile
+label: mobile
+handler: simple
+handler_configuration: {  }
+entity_settings:
+  target_type: node
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      product: product
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+queue_settings:
+  min_size: 0
+  max_size: 0
+  act_as_queue: false
+  reverse: false

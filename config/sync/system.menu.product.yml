@@ -1,0 +1,8 @@
+uuid: ea17b7c0-86f9-4d45-a105-0e1d210a3eb4
+langcode: en
+status: true
+dependencies: {  }
+id: product
+label: Product
+description: ''
+locked: false

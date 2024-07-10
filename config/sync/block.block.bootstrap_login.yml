@@ -1,0 +1,25 @@
+uuid: 8b476abc-8379-4897-8dbc-2df02d45bfd5
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:9f74b127-e16d-4b6c-b394-237e78fb9aa8'
+  module:
+    - block_content
+  theme:
+    - bootstrap
+id: bootstrap_login
+theme: bootstrap
+region: navigation_collapsible
+weight: 0
+provider: null
+plugin: 'block_content:9f74b127-e16d-4b6c-b394-237e78fb9aa8'
+settings:
+  id: 'block_content:9f74b127-e16d-4b6c-b394-237e78fb9aa8'
+  label: Login
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

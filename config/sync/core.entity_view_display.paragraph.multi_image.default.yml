@@ -1,0 +1,40 @@
+uuid: 22be3840-5568-4980-8fc8-145412c19670
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.multi_image.field_multi_image
+    - field.field.paragraph.multi_image.field_url
+    - paragraphs.paragraphs_type.multi_image
+  module:
+    - image
+    - link
+id: paragraph.multi_image.default
+targetEntityType: paragraph
+bundle: multi_image
+mode: default
+content:
+  field_multi_image:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_url:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

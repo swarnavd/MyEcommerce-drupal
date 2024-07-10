@@ -1,0 +1,38 @@
+uuid: 8b110325-1fcd-4819-a851-9c82ec9d0478
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_multi_image
+    - paragraphs.paragraphs_type.multi_image
+  module:
+    - image
+id: paragraph.multi_image.field_multi_image
+field_name: field_multi_image
+entity_type: paragraph
+bundle: multi_image
+label: 'Multi image'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg webp'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: false
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+field_type: image
